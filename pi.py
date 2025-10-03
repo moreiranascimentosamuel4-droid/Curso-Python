@@ -1,3 +1,2 @@
-print('Olá Mundo')
-samuel= 'ola'
-print(samuel)
+ola = "olá Mundo"
+print(ola)
