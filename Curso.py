@@ -1,6 +1,7 @@
-input1= input ('Digite sua idade')
 idade = 18
-if idade <= 18:
-    print("Você é menor, vaza!!")
+input= input ('Qual a su idade?')
+if idade >= 18:
+    print('Você é maior pode passar!!')
 else:
- print('Você é maior pode passar!!')
+ print('Você é menor, vaza !!')
+ 
