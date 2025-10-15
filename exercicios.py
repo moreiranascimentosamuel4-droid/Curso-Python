@@ -2,8 +2,8 @@
 #print ('Olá mundo')
 
 "Exercio-2"
-# nome= input ('Seja Bem vindo,Qual o seu nome?')
-# print ( 'É um prazer te conhecer!!, {} !' .format (nome))
+''' nome= input ('Seja Bem vindo,Qual o seu nome?')
+print ( 'É um prazer te conhecer!!, {} !' .format (nome))'''
 
 "Exercicio-3"
 #print ('--__desaio= soma__--_')
@@ -86,5 +86,88 @@ num=(str) = ('Texto, ex:Olá')
 #print('Está capitalizado ?',opa.istitle())
 #"ou fazer todos eles com o format"
 #n = input('Digite algo: ')
-#print('Ele é um numero ? {}'.format(n.isnumeric()))
+#print('Ele é um numero ? {}'.format(n.isnumeric())
+ 
 
+('Operadores Aritméticos')
+#+ - Adição 
+#- - Subtração
+#* - Multiplicação
+#/ - Divisão 
+#** - Potencia
+#// - divisão inteira 
+#% - Resto da divisão
+
+"Ordem de precedencia"
+(1)
+'()'
+'Resolve os parenteses'
+(2)
+'**'
+'Resolve as potencias'
+(3)
+'*,/,//,%'
+'Resove a multiploicação ou subtração ou divisão real ou a sobra da divisão'
+(4)
+'+,-'
+'Resolve a soma ou subtração'
+
+('Exemplo - 1')
+(5+3*2 == 11)
+#f= int(input(5+3*2))
+#print(f)
+
+('Exemplo - 2')
+(3*5+4**2==31)
+#s=int(input(3*5+4**2))
+#print(s)
+
+('Exemplo - 3')
+(3*(5+4)**2==243)
+#v=(3*(5+4)**2)
+#print(v)
+'outra forma de fazer Potencia'
+#print(pow(4,3))
+
+'Raíz Quadrada'
+#g=int(input(144**(1/2)))
+#print(g)
+
+'Raíz Cubica'
+#h=int(input(127**(1/3)))
+#print(h)
+
+'formas do format'
+(1)
+#nome= input('qual o seu nome ?')
+#print('prazer em conhecer você {:20}!'.format(nome))
+'cria um espaço entre os caracteres de 20 linhas'
+(2)
+#noma= input('qual o seu nome ?')
+#print('prazer em conhecer você {:>20}!'.format(noma))
+'Cria um espaço a direita do nome de 20 linhas'
+(3)
+#nome= input('qual o seu nome ?')
+#print('prazer em conhecer você {:<20}!'.format(nome))
+'Cria um espaço a esquerda'
+(4)
+#nome= input('qual o seu nome ?')
+#print('prazer em conhecer você {:^20}!'.format(nome))
+'Centraliza'
+(5)
+#nome= input('qual o seu nome ?')
+#print('prazer em conhecer você {:=^20}!'.format(nome))
+'Alem de centralizar coloca o sinal de igual em volta, ou outro sinal que vc colocar'
+
+
+'Exemplos'
+del int
+n= int(input("Digite um número:"))
+sn2=int(input ('digite outro: '))
+so= n+sn2
+m= n*sn2
+d=n/sn2
+di=n//sn2
+po=n**sn2
+raíz=n**(1/2)
+print('OS resultados são, soma: {}, multiplicação :{}, divisão: {}, divisão inteira: {},potencia: {},raíz: {}'.format(so,m,d,di,po,raíz))
