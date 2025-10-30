@@ -178,12 +178,12 @@
 #del int
 #no= int(input("Digite um número:"))
 #print( 'analisando o valor de {}, seu antecessor é {} e seu sucessor é {}'.format(no,no -1, no +1))
-
+'antecessor e sucessor'
 ('Exercicio 6')
 #del int
 #na= int(input("Digite um número:"))
 #print('o Dobro é {} \n o Triplo  é {}\n e a Raís é {:.2f}'.format(na *2 ,na *3, na**(1/2) ))
-
+'calcula o dobro o triplo e a raíz'
 (':.2f- coloca o tanto de numeros que quero após a virgula')
 
 ('Exercicio 7')
@@ -191,12 +191,11 @@
 #no= int(input("Digite um número:"))
 #ni= int(input("Digite um número:"))
 #print( ' Juntanto {}, e  {} A media é {:.1f}'.format(no,ni, (no+ni)/2))
-
-
+'calcula a media'
 ('Exercicio 8')
 #no=float(input ('digite uma distancia em metros:'))
 #print( 'em centimetros {}\n e em milimetros {}\n e em km {} \n em hectômetro {}\n em decâmetro{} \n em decímetro {}'.format(no *100 ,no *1000,no /100,no /100 , no /10,no *10)) 
-
+'transforma de cm ou m para os oustros metodos de medida'
 ('Exercicio 9')
 #tabuada=int(input('digite um número e veja a sua tabuada:'))
 #print('{} x {} = {}'.format(tabuada,1, tabuada*1))
@@ -210,17 +209,18 @@
 #print('{} x {} = {}'.format(tabuada,9, tabuada*9))
 #print('{} x {} = {}'.format(tabuada,10, tabuada*10))
 #print('-----_______---')
+'Tabuada'
 
 ('Exercicio 10')
 #dinheiro= float(input('digite sua quantia em R$'))
 #print('Vc tem em em Dolar o valor de US${:.2f}'.format(dinheiro *0.1846))
-
+'transforma de R$ para USD$'
 ('Exercicio 11')
 #altura=float(input('Digite a altura dessa parede:'))
 #largura=float(input('Agora a largura:'))
 #metros=altura*largura
 #print('O tamanho em Metros Quadrados é {:.0f} m² \n Então você usara {:.0f} litros.'.format(metros,metros/2))
-
+'Calcula a area'
 ('Exercicio 12')
 #produto=float(input('Qual o preço do seu produto ? R$'))
 #desconto=produto - (produto * 25/100)
@@ -237,16 +237,18 @@
 #parcelado= valor + valor*15/100
 #parcela=parcelado- parcelado* 50/100
 #print('Se for a vista tera um desconto de 50% e tera o valor de R${:.2f}, mas se for parcelado tera um aumento de 15% e saíra com o valor de R${:.2f}\n se for parcelado em 2x pagara o valor de R${:.2f} por mês.'.format(vista,parcelado,parcela))
-
+'os três calcula porcentagem'
 ('Exercicio 14')
 #graus=float(input('Digite a temperatura em °C:'))
 #firenit= (graus*9/5) +32
 #print('A temperatura que era {:.1f} °C, Agora está {:.1f} °F'.format(graus,firenit))
+"Calcula a temperatura"
 
 ('Exercico 15')
 #aluguel=int(input('Quantos dias você está com o carro ?'))
 #rodado=float(input('E quantos km você rodou ? '))
 #print('O valor a se pagar é R${:.2f}'.format(aluguel *60 + rodado *0.15 ))
+'Calcula o valor de aluguel'
 
 ('From e Import')
 #import doce 'doce = Biblioteca'
@@ -286,3 +288,144 @@
 #raiz=math.sqrt(numero)
 #print('a raíz do número {} é {}'.format(numero,math.ceil(raiz)))
 'Arredonda a raiz se ela for dar um numero com virgula para maior ex=6,55 para 7'
+
+#import emoji
+#print (emoji.emojize("Ola, mundo :snake:"))
+'Este importa a biblioteca de emojis'
+#import emoji
+#print(emoji.EMOJI_DATA.keys())
+'Printa o nome de alguns emojis'
+
+('Exercicio 16')
+#import math
+#numero=float(input("digite um numero com virgula:"))
+#print('O valor inteiro desse numero é {}'.format(math.trunc(numero)))
+'transforma de um numero com virgula pra inteiro'
+'ou'
+#numero=float(input("digite um numero com virgula:"))
+#print('O valor inteiro desse numero é {}'.format(int(numero)))
+'Esse faz o exercicio sem importar biblioteca'
+
+('Exercicio 17')
+#from math import sqrt
+#co=float(input('Digite o valor do cateto oposto:'))
+#ca=float(input('Digite o valor do cateto adjacente:'))
+#hi=(co**2+ca**2)
+#print('O valor da hipotenusa é {:.2f}'.format(sqrt(hi)))
+'ou'
+#from math import hypot,pow
+#cateto=float(input('Digite o valor do cateto oposto:'))
+#cateta=float(input('Digite o valor do cateto adjacente:'))
+#hipotenusa= hypot(cateto,cateta)
+#print('O valor da hipotenusa é {:.2f}'.format( hypot(hipotenusa)))
+'ou'
+#from math import hypot
+#ca=float(input('Digite um valor:'))
+#co=float(input('Digite outro:'))
+#print('o valor de hipotenusa é {:.2f}'. format(hypot(ca,co)))
+'ou'
+#from math  import sqrt,pow
+#ca=float(input("Digite um valor: "))
+#co=float(input('Digite outro: '))
+#hi = sqrt(pow(ca,2) + pow(co,2))
+#print('O valor da hopotenusa é {:.2f}'.format(hi))
+
+('mais um exemplo da atividade 17')
+#from math import hypot
+#ca=float(input('Digite um valor: '))
+#co=float(input('Digite outro valor: '))
+#hi1=hypot(ca,co)
+#cateto=float(input('Digite mais o valor do cateto oposto: '))
+#cateta=float(input('Digite agora o valor do cateto adjacente: '))
+#hi2= hypot(cateto,cateta)
+#hi3= hypot(cateta,ca)
+#hi4= hypot(cateto,co)
+#print('O resultado da hipotenusa é {:.2f}\n e da segunda é {:.2f} \n e o resultado entre cateto adjacente é {:.2f} e entre os catetos opostos é {:.2f}'.format(hi1,hi2,hi3,hi4))
+'Cateto oposto, Catateto adjacente e Hipotenusa'
+
+('Exercicio 18')
+#from math import sin,cos,tan,radians
+#angulo=int(input('Digite o valor do angulo :'))
+#rad= radians(angulo)
+
+#if angulo ==30:
+# print('o seno de 30 é {:.2f} ' .format(sin(rad)))
+# print('o cosseno de 30 é {:.2f}' .format(cos(rad)))
+# print('e a tangente de 30 é {:.2f}'.format(tan(rad)))
+
+#elif angulo ==45:
+# print('o seno de 45 é {:.2f} ' .format(sin(rad)))
+# print('o cosseno de 45 é {:.2f}' .format(cos(rad)))
+# print('e a tangente de 45 é {:.2f}'.format(tan(rad)))
+
+#elif angulo ==60:
+# print('o seno de 60 é {:.2f} '.format(sin(rad)))
+# print('o cosseno de 60 é {:.2f}' .format(cos(rad)))
+# print('e a tangente de 60 é {:.2f}'.format(tan(rad)))
+
+#else:
+# print('digite um angulo valido')
+
+'ou'
+#from math import radians, sin,cos,tan
+#angulo= float(input('Digite um angulo: '))
+#rad=radians (angulo)
+#sen= sin( radians(angulo))
+#cose= cos( radians(angulo))
+#tag= tan( radians(angulo))
+#print('o angulo {} tem o resultado do seno {:.2f}, do cosseno é {:.2f} e da tangente é {:.2f}'.format(angulo,sen,cose,tag))
+
+'ou'
+#from math import radians, sin,cos,tan
+#angulo= float(input('Digite um angulo: '))
+#rad=radians (angulo)
+#print('o angulo {} tem o resultado do seno {:.2f}, do cosseno é {:.2f} e da tangente é {:.2f}'.format(angulo,sin(radians(angulo)),cos(radians(angulo)), tan(radians(angulo))))
+'Seno, Cosseno e Tangente'
+
+('Exercicio 19')
+#import random
+#al1=input('aluno 1- ')
+#al2=input('aliuno 2 -')
+#al3=input('aluno 3- ')
+#al4=input('aluno 4- ')
+#alunos=[al1,al2,al3,al4]
+#print('O aluno sorteado é {}'.format(random.choice(alunos)))
+'ou'
+#from random import choice
+#al1=input('aluno 1- ')
+#al2=input('aliuno 2 -')
+#al3=input('aluno 3- ')
+#al4=input('aluno 4- ')
+#alunos=[al1,al2,al3,al4]
+#print('O aluno sorteado é {}'.format(choice(alunos)))
+'Sorteia um aluno'
+
+('Exercicio 20')
+#from random import shuffle
+#nome1=input('Digite um nome para a ordem de apresentação : ')
+#nome2=input('Digite outro : ')
+#nome3=input('Digite mais um : ')
+#nome4=input('mais um por favor : ')
+#lista=[nome1,nome2,nome3,nome4]
+#shuffle(lista)
+#print('A ordem sorteada foi {}'.format(lista))
+'não retorna nada ele apenas muda a lista original por isso quando a printamos novamente está alterada'
+
+('ex')
+#nome1=input('Digite um nome para a ordem de apresentação : ')
+#nome2=input('Digite outro : ')
+#nome3=input('Digite mais um : ')
+#nome4=input('mais um por favor : ')
+#lista=[nome1,nome2,nome3,nome4]
+#print('A ordem sorteada foi {}'.format(sorted(lista)))
+'Cria uma nova lista sem alterar a original'
+
+('Exercicio 21')
+import pygame 
+import time
+pygame.init()
+pygame.mixer.init()
+pygame.mixer.music.load('jesus.mp3')
+pygame.mixer.music.play()
+while pygame.mixer.music.get_busy():
+    time.sleep(0)
