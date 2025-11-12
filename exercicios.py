@@ -421,11 +421,144 @@
 'Cria uma nova lista sem alterar a original'
 
 ('Exercicio 21')
-import pygame 
-import time
-pygame.init()
-pygame.mixer.init()
-pygame.mixer.music.load('jesus.mp3')
-pygame.mixer.music.play()
-while pygame.mixer.music.get_busy():
-    time.sleep(0)
+#import pygame 
+#import time
+#pygame.init()
+#pygame.mixer.init()
+#pygame.mixer.music.load('jesus.mp3')
+#pygame.mixer.music.play()
+#print("Tocando música...")
+#while pygame.mixer.music.get_busy():
+ #time.sleep(1)
+#print('A musica acabou...')
+
+('Aula 09')
+'ex'
+#frase='Curso em video python'
+#print(frase[1:6:2])
+('Fatiamneto')
+'escolhe oq vai printar e pula de dois em dois'
+'print(frase(:5))'
+'printa do 0 até a linha escolhida'  
+'print(frase(15:))'
+'printa da linha escolhida até o final'
+'print(frase(15:;3))'
+'printa da linha escolhida até o final e pula de 3 em 3'
+('Análise')
+'len(frase)'
+'Mostra o comprimento da frase'
+#frase.count('o')
+'conta quantos letras ou palavras tem na str'
+#frase.count('s,0,13')
+'conta a letra ou frase das linhas que vc deseja, faz o fatiamento'
+('Importante')
+'no fatiamento o ultimo caratere é ignorado'
+#frase.find('deo')
+'identica quantas vezes esse conjunt foi utilizado dentro da str, e mostra onde ela foi iniciada'
+#frase.find('android')
+'analisa oq vc mandou e te retorna -1 pois não foi encontrado'
+#curso in frase
+'Identifica se tem a palavra pedida dentro da str, ele apenas diz se tem ou não e retorna true ou false'
+('Transformação')
+#frase.replace('Python','Android')
+'troca a primeira palavra pela segunda que foi escolhida'
+#frase.upper('eu')
+'pega oq foi selecionado e transforma tudo em maisculo'
+#frase=('EU Sou legal')
+#frase=frase.lower()
+#print(frase)
+'pega oq foi selecionado e transforma em minusculo'
+#frase.capitalize()
+'Pega a frase deixa ela toda em minusculo e apenas a primeira letra em maisculo'
+#frase.title()
+'Diferente do capitalize, ele analiza a str e a primeira letra de todas as frases escritass(ele analisa atravez dos espaços)'
+#frase.stip()
+'remove todos os espacos que não são utilizados'
+#frase.rstrip()
+'Faz quase a msm coisa soq só tira os espaços a direita da str'
+#frase.lstrip()
+'Faz quase a msm coisa soq só tira os espaços a esquerda da str'
+('Divisão')
+#frase.split()
+'divide a str, e meio que faz como se elas fossem divididas em outras listas(divide por palavras, a str não é mais uma palavta só)'
+('ex split')
+#frase = "Aprender Python é divertido"
+#palavras = frase.split()        ['Aprender', 'Python', 'é', 'divertido']
+#'-'.join(frase)
+'Junta novamente a str e coloca o - para separa-las'
+('Alguns exemplos')
+#frase=('Curso em Video')
+#print(frase.upper().count('O'))
+'transforma a frase em maiusculo e conta quantos O tem nela'
+#frase=('   Curso em Video    ')
+#print(len(frase.strip()))
+'conta quantos caractereres que tem a frase se contar os espaços que não são utilizados'
+#frase=('curso em video')
+#frase= frase.replace('curso','video')
+#print(frase)
+'altera a str original'
+#print(frase.replace('video', 'curso'))
+'enquanto esse só faz uma mudança, mas a original continua a msm'
+#frase='Olá eu sou o Samuel'
+#dividido=frase.split()
+#print(dividido[0])
+'divide e printa aquilo que eu escolher'
+#juntar='_'.join(dividido)
+#print(juntar)
+'junta novamente e coloca _ entre as frases'
+#frase=('Olá oi olá')
+#dividido=frase.split()
+#print(dividido[2] [1])
+'seleciona a frase e mostra a letra escolhida'
+
+('Praticando um pouco')
+#from math import radians,sin,cos,tan
+#numero=int(input('Digite um angulo : '))
+#rad=radians(numero)
+#print('''o seno é {:.1f}
+#o cosseno é {:.1f} 
+#e a tangente {:.1f}''' .format(sin(rad),cos(rad),tan(rad)))
+
+('Exercicio 22')
+#nome=str(input('Digite seu nome completo : ')).strip()
+#mais=nome.upper()
+#min=nome.lower()
+#print('analizando seu nome...\n Seu nome Maisculo é {}\nMinusculo é {}'.format(mais,min))
+#print('Tem {} letras ao total'.format(len(nome)-nome.count(' ')))
+#split=nome.split()
+#print('Seu primeiro nome {} tem {} letras'.format(split[0],len(split[0])))
+
+('exercicio 23')
+#numero=int(input('Digite um numero : '))
+#print('Analizando o número {}:'.format(numero))
+#print('Unidade {}'.format(numero //1 %10))
+#print('Dezena {}'.format(numero //10 %10))
+#print('Centena {}'.format(numero //100 %10))
+#print('Milhar {}'.format(numero //1000 %10))
+
+('Exercicio 24')
+#cidade=('Curitiba')#pergunta=str(input('Qual cidade você nasceu ? ')).strip()
+#if pergunta.lower() == cidade.lower():
+# print('True')
+#else:
+#print('False')
+'Meu jeito'
+#cid=input('Em qual cidade você nasceu ? ' ).strip()
+#print(cid[:8].upper() == 'CURITIBA')
+'Jeito do Gustavo Guanabara'
+
+('Desafio chat')
+#nome=input('Digite o seu nome : ')
+#idade=input('Digite a sua idade : ')
+#prim=float(input('Digite a primeira nota: '))
+#seg=float(input('Digite a segunda nota : '))
+
+#print(f"\nNome: {nome}\nIdade: {idade}\nPrimeira nota: {prim}\nSegunda nota: {seg}")
+#notas = (prim, seg)
+#print(f"Notas: {notas}")
+#media = (prim + seg) /2
+#print(media)
+#if media >= 7.0:
+    #print("Aprovado")
+#else:
+    #print("Reprovado")
