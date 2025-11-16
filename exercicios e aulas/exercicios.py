@@ -492,7 +492,7 @@
 'transforma a frase em maiusculo e conta quantos O tem nela'
 #frase=('   Curso em Video    ')
 #print(len(frase.strip()))
-'conta quantos caractereres que tem a frase se contar os espaços que não são utilizados'
+'conta quantos caractereres que tem a frase sem contar os espaços que não são utilizados'
 #frase=('curso em video')
 #frase= frase.replace('curso','video')
 #print(frase)
@@ -562,3 +562,35 @@
     #print("Aprovado")
 #else:
     #print("Reprovado")
+
+('Exerxcicio 25')
+#nome=input('Digite o seu nome completo: ').strip().lower()
+#contem= ('nascimento' in nome)
+#print(f"No Seu Nome tem Nascimento ?\n {contem}"
+
+('Exercicio 26')
+#nome=input('Digite o seu nome: ').lower()
+#print(f'''tem o total de letras A = {nome.count('a')}
+#a Primeira letra a aparece na posicão {nome.index('a')+1} e onde aparece a pela ultima vez {nome.rindex('a')+1}''')
+
+
+('jogo adivinhação')
+# from random import randint
+# tentativas= 3
+# numero = randint(1,10)
+# print('Bem vimdo ao jogo de adivinhação')
+# while tentativas > 0:
+#     tentativas = tentativas -1
+#     escolha = int(input("Digite um numero: "))
+#     if escolha != numero and tentativas == 0:
+#         print("Fim de jogo!")
+#     elif escolha != numero:
+#         print("voce errou, tente novamente")
+#     else:
+#         print('Voce acertou, fim de jogo')
+#         tentativas = 0
+
+('Exercicio 27')
+nome = input('Digite o seu nome completo : ').strip()
+dividido=nome.split()
+print(f'Olá {dividido[0]} seu ultimo nome é {dividido[len(dividido)-1]}')
